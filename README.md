@@ -7,8 +7,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This example used the firebase to send a login http request to get the token,
 and also doing the auto-login and auto-logout mechanism. 
 
-## Firebase setting
+## How to use it
 
+1. Run "npm install" inside this project folder to install all dependencies.
+
+2. Make sure you use the latest version of the CLI (upgrade guide below)
+
+3. Please change the firebase relative setting (web api url and key), please refer to the Firebase setting section.
+
+4. Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
+
+## Firebase setting
 
 ### 1. Apply a firebase `realtime database`,
 we will use the two api the firebase provided:
