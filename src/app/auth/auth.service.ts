@@ -24,7 +24,7 @@ export class AuthService {
   constructor(private http: HttpClient, private router: Router) {}
   signup(email: string, password: string) {
     return this.http.post<AuthResponseData>(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[web api key]',
+      'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDBT_Dq4dfB0fl4-GY6eoBldcaYqp7cKsE',
       {
           email: email,
           password: password,
@@ -36,7 +36,7 @@ export class AuthService {
   login(email: string, password: string) {
     return this.http.post<AuthResponseData>(
       // put your firebase web api key here.
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[web api key]',
+      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDBT_Dq4dfB0fl4-GY6eoBldcaYqp7cKsE',
       {
         email: email,
         password: password,

@@ -7,6 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This example used the firebase to send a login http request to get the token,
 and also doing the auto-login and auto-logout mechanism. 
 
+Firebase official site:
+https://firebase.google.com/
+
 ## How to use it
 
 1. Run "npm install" inside this project folder to install all dependencies.
