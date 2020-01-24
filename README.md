@@ -13,6 +13,14 @@ and also doing the auto-login and auto-logout mechanism.
 
 2. Make sure you use the latest version of the CLI (upgrade guide below)
 
+```
+Run the below commands - only use "sudo" on Mac/ Linux.
+
+sudo npm uninstall -g angular-cli @angular/cli
+npm cache clean --force
+sudo npm install -g @angular/cli
+```
+
 3. Please change the firebase relative setting (web api url and key), please refer to the Firebase setting section.
 
 4. Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
