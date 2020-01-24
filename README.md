@@ -39,18 +39,18 @@ we will use the two api the firebase provided:
 
 ### 2. Setting the firebase rule
 
-![](https://i.imgur.com/myy1N9R.png)
+![In image: firebase-rule.png](https://i.imgur.com/myy1N9R.png)
 
 ### 2. Enable the login way as `email/password`
 
-![](https://i.imgur.com/zkhkFDg.png)
+![In image: email-setting](https://i.imgur.com/zkhkFDg.png)
 
 ### 3. Access your web api key
 
 In the project setting, you can see the web api key of the project.
 We will use the web api key(網路金鑰API) to send rest api to firebase
 
-![](https://i.imgur.com/533tZKX.png)
+![In image: fire base setting](https://i.imgur.com/533tZKX.png)
 
 ### 4. Change your web api key in the project
 
